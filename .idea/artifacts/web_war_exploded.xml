@@ -17,8 +17,6 @@
           <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-to-slf4j:2.10.0" />
           <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.10.0" />
           <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.25" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.0.4.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.0.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.19" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-json:2.0.0.RELEASE" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.4" />
@@ -37,6 +35,9 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:5.0.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.0.4.RELEASE" />
+          <element id="archive" name="server-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="server" />
+          </element>
           <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:2.0.0.RELEASE" />
@@ -53,6 +54,9 @@
           <element id="library" level="project" name="Maven: org.unbescape:unbescape:1.1.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
           <element id="library" level="project" name="Maven: org.thymeleaf.extras:thymeleaf-extras-java8time:3.0.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.0.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.0.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.20" />
         </element>
       </element>
       <element id="directory" name="META-INF">

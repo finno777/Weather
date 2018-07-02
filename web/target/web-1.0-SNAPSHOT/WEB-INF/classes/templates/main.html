@@ -1,14 +1,17 @@
-<html xmlns:th="http://www.w3.org/1999/xhtml">
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html" lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <script th:src="@{/js/jquery-3.3.1.js}"></script>
+    <script th:src="@{/js/hell.js}"></script>
+    <link rel="stylesheet" th:href="@{/css/a.css}">
 </head>
 <body>
-
-<div style="color:green;">
-    <p>Это оформляемый абзац</p>
-    <h4> Это оформляемый заголовок </h4>
-    <var id="price">${price}</var>
-</div>
-
+<div th:text="${prise}"></div>
+<br>
+</br>
+<button th:text="'Смена цены'"></button>
 </body>
 </html>
